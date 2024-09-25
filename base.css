@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.itemnav{
+    margin-left: 20px;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    padding: 0px 0px;
+}
+#navbar{
+    background-color: rgb(245, 245, 98);
+    height: 50px;
+    border-bottom: 1px solid black; 
+}
+.itemnav a{
+    color: black;
+    text-decoration: none;
+}
+.itemnav:hover{
+    background-color: grey;
+}
+.nitemnav a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-top: 55px;
+}
+.nitemnav:hover{
+    background-color: rgb(73, 222, 255);
+    margin: 5px;
+}
+

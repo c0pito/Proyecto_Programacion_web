@@ -1,0 +1,132 @@
+#content{
+    display: flex;
+    height: 100%;   
+    
+}
+#lateral{
+    background-color: rgb(213, 236, 193);
+    padding: 40px;
+    margin: 5px;
+    height: auto ;
+
+}
+#lateral ul{
+    list-style-type: none;
+}
+#lateral li{
+    margin-top: 20px;
+}
+#n1{
+    display: flex;
+    width: 100%;
+}
+#n2{
+    background-color: rgb(255, 255, 255);
+    width: 100%; 
+    height: auto;
+    margin: 5px 5px 5px 0px;    
+}
+#n2 h1{
+    padding: 20px;
+
+}
+#n2 h3{
+    padding: 10px;
+    padding-left: 20px;
+    
+}
+#n2 h5{
+    padding: 10px;
+    padding-left: 20px;
+    
+}
+
+
+
+
+#n3{
+    display: flex;
+    width: 100%;
+}
+#n4{
+    width: 100%; 
+    margin: 5px;
+}
+#n4 h1{
+    background-color: rgb(200, 198, 198);
+    padding: 40px;
+    
+}
+#n4 h2{
+    background-color: rgb(254, 218, 17);
+    padding: 10px;
+    
+}
+#n4 h3{
+    background-color: rgb(254, 229, 84);
+    padding: 10px;
+    
+}
+#B{
+    background-color: rgb(250, 50, 236);
+    padding: 50px;
+}
+
+form {
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+form ul {
+    list-style-type: none;
+    padding: 10px; 
+}
+
+form li {
+    margin-bottom: 20px; 
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+#correos{
+    border: 1px solid;
+    margin: 50px;
+    padding-top: 5px;
+    height: 500px;
+    width: 1250px;
+    
+}
+
+input[type="search"] {
+    margin-top: 30px;
+    width: 300px;          
+    height: 35px;          
+    border-radius: 10px;   
+    border: 1px solid #ccc; 
+    padding: 5px 10px;     
+    font-size: 16px;       
+}
+
+button {
+    height: 40px;           
+    border-radius: 10px;    
+    background-color: #378739; 
+    color: white;                    
+    padding: 0 15px;        
+    font-size: 16px;        
+    cursor: pointer;        
+}
+
+
